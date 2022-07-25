@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Raleway&display=swap');
+.content{
+    width: 1170px;
+    height: 500px;
+    border: 1px solid #C6CBCD;
+    margin-top: -3px;
+
+}
+.button{
+    list-style: none;
+    display: flex;
+    width: 570px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+.button__item {
+    width: 184px;
+    padding:20px 0;
+    background-color: white;
+    border: none;
+
+}
+
+.button__item--active{
+    width:200px;
+    border-radius:5px 5px 0 0;
+    background-color: white;
+    border:1px solid gray;
+    border-bottom:1px solid white;
+}
+.content__title{
+    width: 570px;
+    margin-left: 90px;
+}
+.state{
+    float:right;
+}
+.content__title--1{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Open Sans";
+    height: 124px;
+    vertical-align: center;
+
+}
+.content__title--description{
+    font-family: Raleway;
+    line-height: 21px;
+    height: 210px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: -40px;
+}
+.buttonone{
+    width: 270px;
+    height: 58px;
+    margin-left: 90px;
+    font-family: "Open Sans";
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border:1px solid #EC7979;
+    background-color:#EC7979;
+}
