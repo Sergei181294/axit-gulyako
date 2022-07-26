@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100&display=swap');
+.pricing{
+    width: 1170px;
+    background-color:#F5F5F5;
+;
+    margin:0 15px;
+}
+.options{
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+}
+.line{
+    width: 170px;
+    border-color:green;
+    margin-left:500px;
+}
+.subhead{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Raleway;
+    text-align: center;
+    color:gray;
+    margin-top: 40px;
+}
+.blocks{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+
+}
+.blocks__paragraph{
+    color: white;
+    width: 370px;
+    margin-top: 79px;
+
+}
+
+.blocks__paragraph--basic{
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+    background-color: black;
+    margin: 0;
+}
+.blocks__paragraph--10{
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 700;
+    background-color: black;
+    margin-top: 2px;
+    padding: 20px 0;
+    margin-bottom: 1px;
+}
+.blocks__paragraph--life{
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: black;
+    margin: 1px auto;
+}
+.blocks__paragraph--1gb{
+    background-color: white;
+    color: gray;
+    border:1px solid gray;
+    margin: 0;
+    padding:10px 0;
+}
+.blocks__middle{
+    margin-top: 59px;
+}
+
+

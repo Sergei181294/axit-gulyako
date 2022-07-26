@@ -14,7 +14,7 @@ section{
     font-family: Raleway;
     font-weight: 400;
 }
-hr{
+.line{
     width: 170px;
     border-color:green;
     margin-left:500px;
