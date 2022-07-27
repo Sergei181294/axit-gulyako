@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Raleway&display=swap');
 .content{
     width: 1170px;
-    height: 500px;
     border: 1px solid #C6CBCD;
     margin-top: -3px;
-
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
 }
 .button{
     list-style: none;
@@ -33,35 +34,28 @@
 }
 .content__title{
     width: 570px;
-    margin-left: 90px;
-}
-.state{
-    float:right;
+    margin-left: 50px;
 }
 .content__title--1{
     font-weight: 700;
     font-size: 30px;
     font-family: "Open Sans";
-    height: 124px;
-    vertical-align: center;
-
 }
 .content__title--description{
     font-family: Raleway;
     line-height: 21px;
-    height: 210px;
     font-weight: 400;
     font-size: 18px;
-    margin-top: -40px;
+    margin-top: 40px;
 }
-.buttonone{
+.content__title--button{
     width: 270px;
-    height: 58px;
-    margin-left: 90px;
     font-family: "Open Sans";
     color: white;
     font-size: 18px;
     font-weight: 600;
     border:1px solid #EC7979;
     background-color:#EC7979;
+    margin-top: 30px;
+    padding:15px 0;
 }
