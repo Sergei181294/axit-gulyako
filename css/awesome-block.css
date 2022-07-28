@@ -6,7 +6,6 @@ section{
 }
 .title{
     width: 1170px;
-    height: 150px;
     text-align: center;
     margin: 0;
     font-size: 30px;
@@ -16,12 +15,11 @@ section{
 }
 .line{
     width: 170px;
-    border-color:green;
+    border-color:#EC7979;
     margin-left:500px;
 }
 .subtitle{
     width: 1169px;
-    height: 21px;
     font-size: 18px;
     font-weight: 400;
     font-family: Raleway;
@@ -34,7 +32,6 @@ section{
     list-style: none;
     width: 1170px;
     padding:0;
-    margin-left: 0;
 }
 .description__1{
     margin: 0 auto;
@@ -48,10 +45,10 @@ section{
     font-family: "Open Sans";
     font-size: 24px;
     font-weight: 700;
-    height: 100px;
-    line-height: 100px;
     margin: 0 auto;
 }
-h5{
-    margin: 0;
+.description__1--subtitle{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
 }
