@@ -1,7 +1,8 @@
-
+.pricing-options{
+    background-color: #F5F5F5;
+}
 .pricing{
     max-width: 1170px;
-    background-color:#F5F5F5;
     margin:0 auto;
 }
 .options{
@@ -37,6 +38,7 @@
     color: white;
     width: 370px;
     margin-top: 79px;
+    margin-bottom: 50px;
 }
 .blocks__paragraph--basic{
     font-family: "Open Sans", "Arial", sans-serif;
@@ -44,6 +46,7 @@
     font-size: 24px;
     background-color: black;
     margin: 0;
+    padding: 14px 0;
 }
 .blocks__paragraph--10{
     font-family: Raleway, "Arial", sans-serif;
@@ -51,7 +54,7 @@
     font-weight: 700;
     background-color: black;
     margin-top: 2px;
-    padding: 20px 0;
+    padding: 29px 0;
     margin-bottom: 1px;
 }
 .blocks__paragraph--life{
@@ -60,17 +63,22 @@
     font-size: 18px;
     background-color: black;
     margin: 1px auto;
+    padding: 15px 0;
 }
 .blocks__paragraph--1gb{
     background-color: white;
-    color: gray;
-    border:1px solid gray;
+    color:#86878B;
+    border:1px solid #F5F5F5;
     margin: 0;
-    padding:10px 0;
+    padding:15px 0;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Raleway,Arial,sans-serif;
 }
 .blocks__middle{
     margin-top: 59px;
 }
+
 
 
 
