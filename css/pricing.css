@@ -1,25 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100&display=swap');
+
 .pricing{
-    width: 1170px;
+    max-width: 1170px;
     background-color:#F5F5F5;
-    margin:0 15px;
+    margin:0 auto;
 }
 .options{
-    font-family: Raleway;
+    font-family: Raleway, "Arial", sans-serif;
     font-weight: 400;
     font-size: 36px;
     text-align: center;
+    padding: 57px 0;
+    margin-top: 50px ;
+    margin-bottom: 0;
 }
 .line{
     width: 170px;
     border-color: #EC7979;
-    margin-left:500px;
+    margin-left: 500px;
 }
 .subhead{
     font-size: 18px;
     font-weight: 400;
-    font-family: Raleway;
+    font-family: Raleway, "Arial", sans-serif;
     text-align: center;
     color:gray;
     margin-top: 40px;
@@ -37,14 +39,14 @@
     margin-top: 79px;
 }
 .blocks__paragraph--basic{
-    font-family: "Open Sans";
+    font-family: "Open Sans", "Arial", sans-serif;
     font-weight: 700;
     font-size: 24px;
     background-color: black;
     margin: 0;
 }
 .blocks__paragraph--10{
-    font-family: Raleway;
+    font-family: Raleway, "Arial", sans-serif;
     font-size: 36px;
     font-weight: 700;
     background-color: black;
@@ -53,7 +55,7 @@
     margin-bottom: 1px;
 }
 .blocks__paragraph--life{
-    font-family: Raleway;
+    font-family: Raleway,"Arial", sans-serif;
     font-weight: 400;
     font-size: 18px;
     background-color: black;
@@ -69,5 +71,6 @@
 .blocks__middle{
     margin-top: 59px;
 }
+
 
 
