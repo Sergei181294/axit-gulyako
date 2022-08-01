@@ -14,7 +14,7 @@
 .customers__header::after{
     content:"";
     position: absolute;
-    border:1px solid black;
+    border:1px solid orange;
     width: 170px;
     top:155px;
     left:489px;
