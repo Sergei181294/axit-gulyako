@@ -1,0 +1,31 @@
+.header{
+    background-color: black;
+}
+.loft{
+    max-width: 1170px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+
+}
+.loft__logo-ax{
+    padding: 20px 0 20px 110px;
+}
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    font-family: Open Sans,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    align-self: center;
+    padding: 0;
+    width: 1170px;
+    justify-content: flex-end;
+    gap: 60px;
+}
+.menu__contact{
+    padding-right: 200px;
+}
+
