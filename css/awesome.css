@@ -1,0 +1,95 @@
+
+.awesome{
+    max-width: 1170px;
+    margin:0 auto;
+}
+.title{
+    width: 1170px;
+    text-align: center;
+    margin-top:110px;
+    font-size: 30px;
+    font-family: Raleway, "Arial", sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+    position: relative;
+    padding-bottom: 60px;
+}
+.title::after{
+    content:"";
+    position: absolute;
+    height: 1px;
+    width: 170px;
+    background-color: #EC7979;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    left: 50%;
+}
+.subtitle{
+    width: 1169px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Raleway, "Arial", sans-serif;
+    text-align: center;
+    color:gray;
+    margin: 40px 0 0 0;
+
+}
+.description{
+    display:flex;
+    list-style: none;
+    width: 1170px;
+    padding:0;
+    margin: 0;
+    justify-content: center;
+}
+.description__design{
+    text-align: center;
+    font-family: Raleway, "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 370px;
+
+}
+.description__design--title{
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top:290px;
+    position: relative;
+    margin-bottom: 0;
+}
+.awesome-lamp::before{
+    position: absolute;
+    content: "";
+    background-image: url("/picture/Group16&lamp.svg");
+    width: 92px;
+    height: 92px;
+    bottom:120px;
+    left:140px;
+}
+.awesome-board::before{
+    position: absolute;
+    content: "";
+    background-image: url("/picture/Group17&board.svg");
+    width: 92px;
+    height: 92px;
+    bottom:120px;
+    left:140px;
+}
+.awesome-lightning::before{
+    content:"";
+    background-image: url("/picture/Group18&molnia.svg");
+     position: absolute;
+    width: 92px;
+     height: 92px;
+    bottom:120px;
+    left:140px;
+ }
+.description__design--information{
+    font-family: Raleway, "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 49px;
+    margin-bottom: 60px;
+    padding:15px;
+}
