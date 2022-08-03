@@ -1,0 +1,35 @@
+.social-media{
+    background-color: #F8EFEF;
+    width: 1510px;
+    margin: 0 auto;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social__network{
+margin-left: 170px;
+}
+.social__network--title{
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 0;
+    margin-top: 20px;
+}
+.social__network--subtitle{
+    margin-top: 35px;
+    font-family: Raleway, "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+    width: 470px;
+}
+.social__logo{
+    display: flex;
+    gap:35px;
+    align-self: center;
+}
+.social__logo--wi-fi{
+    margin-right: 180px;
+}

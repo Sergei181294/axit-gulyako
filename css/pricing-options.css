@@ -1,5 +1,7 @@
 .pricing-options{
     background-color: #F5F5F5;
+    max-width: 1510px;
+    margin: 0 auto;
 }
 .pricing{
     max-width: 1170px;

@@ -1,13 +1,13 @@
 .footer{
     background-color: black;
+    width: 1510px;
+    margin: 0 auto;
 }
 .logo{
     display: flex;
     justify-content: center;
     gap:40px;
     padding-top: 35px;
-    max-width: 1170px;
-    margin: 0 auto;
 }
 .office{
     color: #FFFFFF80;

@@ -1,9 +1,9 @@
 .design-section{
     margin-top: 64px;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/picture/design-background.jpg);
 }
 .design{
-    max-width: 1170px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/picture/design-background.jpg);
+    max-width: 1510px;
     margin: 0 auto;
     text-align: center;
     color: #F4F9FC;

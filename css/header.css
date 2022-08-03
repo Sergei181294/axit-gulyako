@@ -1,8 +1,8 @@
 .header{
-    background-color: black;
 }
 .loft{
-    max-width: 1170px;
+    background-color: black;
+    max-width: 1510px;
     margin: 0 auto;
     color: white;
     display: flex;
