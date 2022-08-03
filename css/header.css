@@ -19,13 +19,18 @@
     font-family: Open Sans,Arial,sans-serif;
     font-weight: 600;
     font-size: 14px;
-    align-self: center;
     padding: 0;
     width: 1170px;
     justify-content: flex-end;
     gap: 60px;
+    margin-top: 25px;
+
 }
 .menu__contact{
     padding-right: 200px;
+}
+.menu__nav:link{
+    color:white;
+    text-decoration: none;
 }
 
