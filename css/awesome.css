@@ -1,18 +1,14 @@
-
 .awesome{
-    max-width: 1170px;
-    margin:0 auto;
+    padding: 30px;
 }
 .title{
-    width: 1170px;
     text-align: center;
-    margin-top:110px;
     font-size: 30px;
     font-family: Raleway, "Arial", sans-serif;
     font-weight: 400;
-    margin-bottom: 0;
     position: relative;
     padding-bottom: 60px;
+    margin: 0;
 }
 .title::after{
     content:"";

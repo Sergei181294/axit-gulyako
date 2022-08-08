@@ -1,0 +1,77 @@
+.container{
+    max-width: 1170px;
+    margin:0 auto;
+}
+.contact{
+    padding: 30px 0;
+}
+.contact__header{
+    text-align: center;
+    font-size: 30px;
+    font-family: Raleway, "Arial", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+    padding-bottom: 60px;
+}
+.contact__header::after{
+    content:"";
+    position: absolute;
+    height: 1px;
+    width: 170px;
+    background-color: #EC7979;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    left: 50%;
+}
+.contact__subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Raleway, "Arial", sans-serif;
+    text-align: center;
+    color:gray;
+    margin: 40px 0 0 0;
+}
+.field{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+.field__left{
+    max-width: 570px;
+}
+.field__left--one{
+    width: 570px;
+    border: none;
+    border-bottom: 3px solid #BDBDBD;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    padding:20px 0;
+}
+.button-submit{
+    width: 370px;
+    font-family: "Open Sans", "Arial", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border:1px solid #EC7979;
+    background-color:#EC7979;
+    margin-top: 55px;
+    padding:15px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.field__right--one{
+    width: 570px;
+    border: none;
+    border-bottom: 3px solid #BDBDBD;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+}
+.field__right{
+    padding:20px 0 0 0;
+}

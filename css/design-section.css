@@ -1,6 +1,8 @@
 .design-section{
     background-image: url("/picture/stylish-bg.jpg");
     padding:110px 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .design{
     text-align: center;
