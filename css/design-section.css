@@ -1,10 +1,8 @@
 .design-section{
-    margin-top: 64px;
+    background-image: url("/picture/stylish-bg.jpg");
+    padding:110px 50px;
 }
 .design{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/picture/design-background.jpg);
-    max-width: 1510px;
-    margin: 0 auto;
     text-align: center;
     color: #F4F9FC;
 }
@@ -14,7 +12,6 @@
     font-size: 36px;
     position: relative;
     padding-bottom: 60px;
-    padding-top: 110px;
     margin: 0;
 }
 .design__title::after{
@@ -37,12 +34,12 @@
     font-family: Open Sans,Arial,sans-serif;
     font-weight: 600;
     font-size: 18px;
-    margin:73px 0 50px 0;
+    margin:73px 0 0 0;
     width: 370px;
-    padding: 20px 0;
+    padding: 20px 20px;
     color: #FFFFFF;
     background:rgba(0, 0, 0, 0);
-    border-color:white ;
+    border-color:white;
 
 }
 

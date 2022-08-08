@@ -1,6 +1,5 @@
 .customers{
-    max-width: 1170px;
-    margin: 0 auto;
+    padding:50px 0;
 }
 .customers__header{
     position: relative;
@@ -8,8 +7,8 @@
     font-family: Raleway, "Arial", sans-serif;
     font-weight: 400;
     font-size: 36px;
-    padding: 57px 0;
-    margin-top: 50px;
+    padding-bottom:50px;
+    margin:0;
 }
 .customers__header::after{
     content:"";
@@ -36,21 +35,25 @@
     display: flex;
     justify-content: space-between;
     padding: 0;
-    margin: 0 auto;
+    margin-top:80px;
+    margin-bottom: 0;
+}
+.list__description{
+    max-width: 370px;
 }
 
 .list__description--information{
     position: relative;
     border: 1px solid#E2E2E2;
     background-color: #E2E2E2;
-    padding: 40px 0;
-    margin:83px 15px 0 15px;
+    padding: 40px 15px;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 400;
     font-family: Raleway, Arial, sans-serif;
     color: gray;
     text-align: center;
+    margin:0;
 }
 .list__description--information::after{
     content:"";
@@ -60,17 +63,13 @@
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 30px solid #E2E2E2;
-    top:160px;
-    right:260px;
+    bottom:-30px;
+    left:70px;
 }
 .workers{
     margin-top:66px;
-
     display: flex;
-    margin-left: 15px;
     gap: 30px;
-
-
 }
 .contacts{
     display: block;

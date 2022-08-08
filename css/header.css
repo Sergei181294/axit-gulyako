@@ -1,18 +1,14 @@
 .header{
+    background-color: black;
 }
 .loft{
-    background-color: black;
-    max-width: 1510px;
-    margin: 0 auto;
-    color: white;
     display: flex;
+    justify-content: space-between;
 
 }
-.loft__logo-ax{
-    padding: 20px 0 20px 110px;
+.loft__logo{
+    align-self: center;
 }
-
-
 .menu{
     list-style: none;
     display: flex;
@@ -20,17 +16,16 @@
     font-weight: 600;
     font-size: 14px;
     padding: 0;
-    width: 1170px;
-    justify-content: flex-end;
-    gap: 60px;
-    margin-top: 25px;
-
+    margin: 0;
+    gap: 30px;
 }
 .menu__contact{
-    padding-right: 200px;
+
 }
 .menu__nav:link{
     color:white;
     text-decoration: none;
+    display: block;
+    padding: 20px;
 }
 

@@ -1,38 +1,37 @@
 .axit{
+    background-image: url("/picture/AXIT/bg-dark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.subject{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/picture/AXIT/image.jpg);
-    max-width: 1510px;
-    margin: 0 auto;
+.preview{
     display: flex;
+    padding-top: 200px;
+    justify-content: space-between;
 }
-.subject__content{
-margin-left: 170px;
-    margin-top: 231px;
-}
-.subject__input{
+.container__input{
     width: 470px;
+    text-align: center;
 }
-.subject__content--title{
+.container__content--title{
     width: 670px;
     color: white;
     font-family: Raleway,Arial,sans-serif;
     font-weight: 500;
     font-size: 48px;
     position: relative;
-    margin-top: 72px;
-    margin-bottom: 0;
+    margin-top: 70px;
+    padding-bottom:50px;
 }
-.subject__content--title::after{
+.container__content--title::after{
     content:"";
     position: absolute;
     height: 1px;
     width: 170px;
     background-color: white;
-    bottom: -50px;
+    bottom: 0;
     left: 0;
 }
-.subject__content--subtitle{
+.container__content--subtitle{
     width: 270px;
     margin-top: 97px;
     font-family: Raleway, "Arial", sans-serif;
@@ -40,9 +39,9 @@ margin-left: 170px;
     font-size: 18px;
     color: white;
 }
-.subject__content--button{
+.container__content--button{
     width: 270px;
-    padding: 20px 0;
+    padding: 20px;
     margin-top: 42px;
     color: white;
     font-family: "Open Sans", "Arial", sans-serif;
@@ -50,51 +49,40 @@ margin-left: 170px;
     font-size: 18px;
     background:rgba(0, 0, 0, 0);
     border-color: white;
-    margin-bottom: 185px;
 }
-.subject__input{
-    margin-left: 60px;
+.container__input{
     border: 0 solid white;
     width: 470px;
-    margin-top: 208px;
     margin-bottom: 290px;
     background-color: white;
     border-radius: 10px;
 
 }
-.subject__input--title{
+.container__input--title{
     font-weight: 700;
     font-size: 24px;
     font-family: "Open Sans", "Arial", sans-serif;
     text-align: center;
-    padding-top: 30px;
-    margin-bottom: 80px;
+    padding: 30px;
+    margin: 0;
 }
 .free__color{
     color:#EC7979;
 }
 
 
-.subject__input--field{
+.container__input--field{
     border: none;
     border-bottom: 3px solid #BDBDBD;
     background-color: transparent;
     color: inherit;
     outline: none;
-    width: 370px;
-    margin-left: 50px;
-}
-.subject__input--paragraf{
-    font-family: "Open Sans", "Arial", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color:#BDBDBD;
-    margin-top: 35px;
-    margin-bottom: 0;
-    margin-left: 50px;
+    min-width: 325px;
+    padding:20px 0;
 }
 
-.subject__input--button{
+
+.container__input--button{
     width: 470px;
     padding: 25px;
     border-bottom-left-radius: 10px;
@@ -102,6 +90,5 @@ margin-left: 170px;
     background-color: #EC7979;
     border: 1px solid #EC7979;
     color: white;
-    margin-top: 80px;
-
+    margin-top: 100px;
 }

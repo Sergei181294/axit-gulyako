@@ -1,13 +1,13 @@
 .footer{
     background-color: black;
-    width: 1510px;
-    margin: 0 auto;
+    padding:30px;
 }
 .logo{
     display: flex;
     justify-content: center;
     gap:40px;
-    padding-top: 35px;
+    margin:0;
+    padding:0;
 }
 .office{
     color: #FFFFFF80;
@@ -15,7 +15,6 @@
     font-weight: 400;
     font-size: 18px;
     text-align: center;
-    margin-top: 35px;
-    padding-bottom: 25px;
+    margin: 35px 0 0 0;
 
 }

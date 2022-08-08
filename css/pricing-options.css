@@ -1,20 +1,14 @@
 .pricing-options{
     background-color: #F5F5F5;
-    max-width: 1510px;
-    margin: 0 auto;
-}
-.pricing{
-    max-width: 1170px;
-    margin:0 auto;
+    padding: 30px 0;
 }
 .options{
     font-family: Raleway, "Arial", sans-serif;
     font-weight: 400;
     font-size: 36px;
     text-align: center;
-    padding: 57px 0;
-    margin-top: 50px ;
-    margin-bottom: 0;
+    padding-bottom:50px;
+    margin: 0;
     position: relative;
 }
 .options::after{
@@ -35,6 +29,7 @@
     text-align: center;
     color:gray;
     margin-top: 40px;
+    margin-bottom: 0;
 }
 .blocks{
     list-style: none;
@@ -42,12 +37,12 @@
     display: flex;
     justify-content: space-between;
     padding: 0;
+    margin-top: 80px;
+    margin-bottom: 0;
 }
 .blocks__paragraph{
     color: white;
     width: 370px;
-    margin-top: 79px;
-    margin-bottom: 50px;
 }
 .blocks__paragraph--basic{
     font-family: "Open Sans", "Arial", sans-serif;
@@ -85,9 +80,8 @@
     font-family: Raleway,Arial,sans-serif;
 }
 .blocks__middle{
-    margin-top: 59px;
+    margin-top: -30px;
 }
-
 
 
 

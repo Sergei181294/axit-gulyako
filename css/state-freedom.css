@@ -20,9 +20,10 @@
 }
 .button__item {
     width: 184px;
-    padding:20px 0;
+    padding:20px;
     background-color: white;
     border: none;
+    cursor: pointer;
 
 }
 
@@ -34,8 +35,8 @@
     border-bottom:1px solid white;
 }
 .content__description{
-    width: 570px;
-    margin-left: 100px;
+    width: 640px;
+    padding: 30px;
 }
 .content__description--title{
     font-weight: 700;
