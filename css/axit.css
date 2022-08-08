@@ -19,7 +19,7 @@
     font-weight: 500;
     font-size: 48px;
     position: relative;
-    margin-top: 70px;
+    margin: 75px 0 0 0;
     padding-bottom:50px;
 }
 .container__content--title::after{
@@ -33,7 +33,7 @@
 }
 .container__content--subtitle{
     width: 270px;
-    margin-top: 97px;
+    margin: 97px 0 0 0;
     font-family: Raleway, "Arial", sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -49,6 +49,7 @@
     font-size: 18px;
     background:rgba(0, 0, 0, 0);
     border-color: white;
+    cursor: pointer;
 }
 .container__input{
     border: 0 solid white;
@@ -91,4 +92,5 @@
     border: 1px solid #EC7979;
     color: white;
     margin-top: 100px;
+    cursor: pointer;
 }
