@@ -5,15 +5,12 @@
 }
 .preview{
     display: flex;
-    padding-top: 200px;
+    padding: 200px 0;
     justify-content: space-between;
 }
-.container__input{
-    width: 470px;
-    text-align: center;
-}
+
 .container__content--title{
-    width: 670px;
+    max-width: 670px;
     color: white;
     font-family: Raleway,Arial,sans-serif;
     font-weight: 500;
@@ -32,7 +29,7 @@
     left: 0;
 }
 .container__content--subtitle{
-    width: 270px;
+    max-width: 270px;
     margin: 97px 0 0 0;
     font-family: Raleway, "Arial", sans-serif;
     font-weight: 400;
@@ -40,7 +37,7 @@
     color: white;
 }
 .container__content--button{
-    width: 270px;
+    min-width: 270px;
     padding: 20px;
     margin-top: 42px;
     color: white;
@@ -53,10 +50,11 @@
 }
 .container__input{
     border: 0 solid white;
-    width: 470px;
-    margin-bottom: 290px;
+    max-width: 470px;
     background-color: white;
     border-radius: 10px;
+    text-align: center;
+    align-self: flex-start;
 
 }
 .container__input--title{
@@ -94,3 +92,89 @@
     margin-top: 100px;
     cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }}
+@media (max-width:992px){
+    .container{
+        max-width: 750px;
+    }
+    .container__content--title{
+        font-size: 36px;
+        padding-bottom: 41px;
+        margin-top: 54px;
+    }
+    .container__content--title::after{
+        width: 115px;
+    }
+    .container__content--subtitle{
+        font-size: 14px;
+        margin-top: 31px;
+        max-width: 183px;
+    }
+    .container__input{
+        width:398px;
+    }
+    .container__input--button{
+        width: 398px;
+        margin-top: 31px;
+    }
+    .container__content--button{
+        min-width: 183px;
+    }
+}
+@media(max-width: 767px){
+    .container {
+        max-width: none;
+    }
+    .container__content{
+        text-align: center;
+    }
+
+.container__content--axit{
+    display: none;
+}
+.container__content--title{
+    width: 288px;
+    text-align: center;
+    margin: 0 auto;
+}
+.container__content--title::after{
+    left:80px;
+}
+.container__content--subtitle{
+    margin:42px auto 0;
+    max-width: 288px;
+}
+.preview{
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    padding: 15px;
+}
+.free{
+    font-size: 14px;
+}
+    .container__content--button{
+        min-width:288px;
+        margin-top: 42px;
+        text-align: center;
+    }
+    .container__input{
+        width: 288px;
+        height: 381px;
+        margin: 56px auto 0;
+    }
+    .container__input--field{
+        min-width: 240px;
+    }
+    .container__input--button{
+        max-width: 288px;
+        margin-top:64px;
+    }
+}
+
+
+

@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <header class="header">
@@ -32,16 +33,16 @@
             <p class="container__content--subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             <button class="container__content--button">Download</button>
         </div>
-        <form class="container__input">
+        <form class="container__input" method="post" action="">
             <h2 class="container__input--title free">TRY YOUR <span class="free__color">FREE</span> TRIAL TODAY</h2>
 <label>
-    <input class="container__input--field" type="text" placeholder="Name">
+    <input class="container__input--field" type="text" placeholder="Name" name="Name">
 </label>
             <label>
-                <input class="container__input--field" type="email" placeholder="Email">
+                <input class="container__input--field" type="email" placeholder="Email" name="email">
             </label>
            <label>
-               <input class="container__input--field" type="password" placeholder="Password">
+               <input class="container__input--field" type="password" placeholder="Password" name="password">
            </label>
             <input class="container__input--button" type="submit" value="Get started">
         </form>
@@ -231,8 +232,9 @@
             <h2 class="contact__header">CONTACT US</h2>
 
             <p class="contact__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="field">
-                <form class="field__left" method="post">
+            <form class="field" method="post">
+                <div class="field__main">
+                <div class="field__left">
                     <label>
                         <input class="field__left--one" type="text" placeholder="Name">
                     </label>
@@ -242,14 +244,15 @@
                     <label>
                         <input class="field__left--one" type="password" placeholder="Password">
                     </label>
-                </form>
-                <form class="field__right">
+                </div>
+                <div class="field__right">
                     <label>
                         <textarea class="field__right--one" placeholder="Message"></textarea>
                     </label>
-                </form>
-            </div>
+                </div>
+                </div>
             <button class="button-submit" type="submit">Send Message</button>
+            </form>
         </div>
     </section>
 </main>

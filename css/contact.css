@@ -33,9 +33,7 @@
     margin: 40px 0 0 0;
 }
 .field{
-    display: flex;
     margin-top: 90px;
-    justify-content: space-between;
 }
 .field__left{
     max-width: 570px;
@@ -75,4 +73,8 @@
 }
 .field__right{
     padding:20px 0 0 0;
+}
+.field__main{
+    display: flex;
+    justify-content: space-between;
 }
