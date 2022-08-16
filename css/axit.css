@@ -120,7 +120,7 @@
     }
 
     .container__input {
-        max-width:
+        max-width: 398px;
     }
 
     .container__input--button {
@@ -158,21 +158,18 @@
     .preview{
         flex-direction: column;
         padding: 15px;
-    }}
-
-
-
-    .container__input{
-        margin: 56px auto 0;
+        max-width: 288px;
+    }
+.container__input{
+    max-width: 288px;
+    margin-top: 56px;
 }
-    .free{
-        font-size: 14px;
-    }
-    .container__input--field{
-        min-width:240px;
-    }
 .container__input--button{
     max-width: 100%;
+}
+.container__input--field{
+    min-width: 240px;
+}
 }
 
 
