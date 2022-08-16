@@ -1,3 +1,4 @@
+@import "general.css";
 @import "awesome.css";
 @import "customers.css";
 @import "state-freedom.css";
@@ -8,7 +9,3 @@
 @import "axit.css";
 @import "social-media.css";
 @import "contact.css";
-.container{
-    max-width: 1170px;
-    margin: 0 auto;
-}
