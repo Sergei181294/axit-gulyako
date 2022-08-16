@@ -26,18 +26,13 @@
     display: block;
     padding: 20px;
 }
-/*992px - 1200px*/
-@media (max-width: 1200px) {
-    .container {
-        max-width: 960px;
-    }}
-@media (max-width:992px){
-    .container{
-        max-width: 750px;
 
-    }
+@media(max-width: 1510px){
+    .container{
+        width: 992px;}
 }
-@media(max-width: 767px){
+
+@media(max-width: 1024px){
     .container{
         max-width: none;
         display: block;
@@ -49,4 +44,7 @@
     }
 
 }
+
+
+
 
