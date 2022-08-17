@@ -1,9 +1,10 @@
 .awesome{
-    padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 60px;
 }
 .title{
     text-align: center;
-    font-size: 30px;
+    font-size: 36px;
     font-family: Raleway, "Arial", sans-serif;
     font-weight: 400;
     position: relative;
@@ -21,7 +22,7 @@
     left: 50%;
 }
 .subtitle{
-    width: 1169px;
+    max-width: 1169px;
     font-size: 18px;
     font-weight: 400;
     font-family: Raleway, "Arial", sans-serif;
@@ -33,9 +34,9 @@
 .description{
     display:flex;
     list-style: none;
-    width: 1170px;
+    max-width: 1170px;
     padding:0;
-    margin-top: 290px;
+    margin: 290px 0 0;
     justify-content: center;
 }
 .description__design{
@@ -51,7 +52,7 @@
     font-size: 24px;
     font-weight: 700;
     position: relative;
-    margin-bottom: 0;
+    margin: 0;
 }
 .awesome-lamp::before{
     position: absolute;
@@ -84,7 +85,103 @@
     font-family: Raleway, "Arial", sans-serif;
     font-size: 18px;
     font-weight: 400;
-    margin-top: 49px;
-    margin-bottom: 60px;
-    padding:15px;
+    margin: 49px 0 0;
+    padding: 15px;
+
 }
+@media(max-width: 1510px){
+    .container{
+        max-width: 992px;
+    }
+    .title{
+        font-size: 24px;
+        padding-bottom: 50px;
+        margin: 0;
+    }
+    .subtitle{
+        font-size: 14px;
+        margin: 30px 0 0;
+    }
+    .description{
+        max-width: 992px;
+        margin: 210px 0 0;
+    }
+    .description__design--title{
+        font-size: 18px;
+    }
+    .awesome-lamp::before{
+        background-size: contain;
+        width: 80px;
+        height: 80px;
+        bottom:80px;
+        left:130px;
+}
+    .awesome-board::before {
+        background-size: contain;
+        width: 80px;
+        height: 80px;
+        bottom: 80px;
+        left: 130px;
+    }
+    .awesome-lightning::before{
+        background-size: contain;
+        width: 80px;
+        height: 80px;
+        bottom:80px;
+        left:130px;
+    }
+}
+@media(max-width: 1024px){
+    .container{
+        max-width: 288px;
+    }
+    .awesome{
+        padding: 50px 10px 60px;
+    }
+    .title{
+        font-size: 18px;
+        padding-bottom: 50px;
+        margin: 0;
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+    .description{
+        max-width: 288px;
+        flex-direction: column;
+        text-align: center;
+        margin:230px 0 0;
+    }
+    .description__design{
+        max-width: inherit;
+    }
+    .description__design--information{
+        max-width: 288px;
+    }
+    .awesome-board{
+        margin: 190px 0 0;
+    }
+    .awesome-lightning{
+        margin: 190px 0 0;
+    }
+    .awesome-lamp::before{
+        background-size: contain;
+        width: 80px;
+        height: 80px;
+        bottom:80px;
+        left:105px;
+}
+    .awesome-board::before {
+        background-size: contain;
+        width: 80px;
+        height: 80px;
+        bottom: 80px;
+        left: 105px;
+    }
+    .awesome-lightning::before {
+        background-size: contain;
+        width: 80px;
+        height: 80px;
+        bottom: 80px;
+        left: 105px;
+    }}

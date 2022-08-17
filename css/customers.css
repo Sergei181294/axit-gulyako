@@ -1,5 +1,6 @@
 .customers{
-    padding:50px 0;
+    padding-top:95px;
+    padding-bottom: 50px;
 }
 .customers__header{
     position: relative;
@@ -90,5 +91,46 @@
 .person{
     display: flex;
     gap:30px;
+}
+@media(max-width: 1510px){
+    .customers__header{
+        font-size: 24px;
+        padding-bottom:35px;
+    }
+    .customers__header::after{
+        width: 142px;
+    }
+    .customers__subhead{
+        font-size: 14px;
+        margin-top: 32px;
+    }
+    .list{
+        max-width: 992px;
+        margin-top: 30px;
+    }
+    .list__description{
+        max-width: 317px;
+    }
+    .list__description--information{
+        font-size: 14px;
+    }
+    .contacts__name{
+        font-size: 18px;
+    }
+    .contacts__info{
+        font-size: 14px;
+    }
+}
+@media(max-width: 1024px){
+    .list__description{
+        max-width: 288px;
+    }
+    .list__description--information{
+        padding:20px 15px;
+    }
+    .none{
+        display:none;
+    }
+
 }
 

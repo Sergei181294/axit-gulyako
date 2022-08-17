@@ -1,6 +1,7 @@
 .pricing-options{
     background-color: #F5F5F5;
-    padding: 30px 0;
+    padding-top: 100px;
+    padding-bottom: 45px;
 }
 .options{
     font-family: Raleway, "Arial", sans-serif;
@@ -50,7 +51,7 @@
     font-size: 24px;
     background-color: black;
     margin: 0;
-    padding: 14px 0;
+    padding: 14px;
 }
 .blocks__paragraph--10{
     font-family: Raleway, "Arial", sans-serif;
@@ -58,7 +59,7 @@
     font-weight: 700;
     background-color: black;
     margin-top: 2px;
-    padding: 29px 0;
+    padding: 29px;
     margin-bottom: 1px;
 }
 .blocks__paragraph--life{
@@ -67,14 +68,14 @@
     font-size: 18px;
     background-color: black;
     margin: 2px auto;
-    padding: 15px 0;
+    padding: 15px;
 }
 .blocks__paragraph--1gb{
     background-color: white;
     color:#86878B;
     border:1px solid #F5F5F5;
     margin: 0;
-    padding:15px 0;
+    padding:15px;
     font-size: 18px;
     font-weight: 400;
     font-family: Raleway,Arial,sans-serif;
@@ -82,7 +83,68 @@
 .blocks__middle{
     margin-top: -30px;
 }
+@media (max-width: 1510px) {
+    .options {
+        font-size: 24px;
+        padding-bottom: 50px;
+    }
 
+    .options::after {
+        width: 143px;
+    }
+
+    .subhead {
+        font-size: 14px;
+        margin-top: 32px;
+    }
+
+    .blocks {
+        margin-top: 50px;
+    }
+
+    .blocks__paragraph {
+        max-width: 317px;
+    }
+    .blocks__paragraph--basic{
+        padding: 10px;
+    }
+    .blocks__paragraph--10 {
+        padding: 23px;
+    }
+    .blocks__paragraph--life {
+        padding: 12px;
+    }
+    .blocks__paragraph--1gb{
+        padding: 12px;
+    }
+}
+@media(max-width: 1024px){
+    .options::after {
+        width: 134px;
+    }
+    .blocks{
+        flex-direction: column;
+        gap:35px;
+    }
+    .blocks__paragraph{
+        max-width: 288px;
+    }
+    .blocks__paragraph--basic{
+        font-size: 18px;
+    }
+    .blocks__paragraph--10 {
+        padding: 24px;
+    }
+    .blocks__paragraph--life {
+        padding: 14px;
+    }
+    .blocks__paragraph--1gb{
+        padding: 14px;
+    }
+    .blocks__middle{
+        margin-top:0;
+    }
+}
 
 
 

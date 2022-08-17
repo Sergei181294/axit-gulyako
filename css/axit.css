@@ -98,6 +98,11 @@
     .container {
         max-width: 992px;
     }
+
+    .container__content--axit{
+        max-width: 112px;
+        max-height: 41px;
+    }
     .container__content--title {
         max-width: 454px;
         font-size: 36px;
@@ -157,7 +162,8 @@
 
     .preview{
         flex-direction: column;
-        padding: 15px;
+        padding-top: 84px;
+        padding-bottom: 50px;
         max-width: 288px;
     }
 .container__input{

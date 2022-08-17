@@ -43,6 +43,33 @@
     background:rgba(0, 0, 0, 0);
     border-color:white;
     cursor: pointer;
-
 }
 
+@media(max-width: 1510px) {
+    .design__title {
+    font-size: 24px;
+    padding-bottom: 48px;
+}
+    .design__title::after{
+        max-width: 142px;
+    }
+    .design__subtitle {
+        margin: 32px 0 0;
+        font-size: 14px;
+    }
+    .design__tab{
+        font-size: 18px;
+        margin:32px 0 0;
+        max-width: 318px;
+    }
+
+}
+@media(max-width: 1024px) {
+
+    .design__subtitle {
+        margin: 16px 0 0;
+    }
+.design__tab{
+    max-width: 287px;
+}
+}
