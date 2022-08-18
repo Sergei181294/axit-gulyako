@@ -72,4 +72,8 @@
 .design__tab{
     max-width: 287px;
 }
+    .design-section{
+        padding-top:45px;
+        padding-bottom: 60px;
+    }
 }

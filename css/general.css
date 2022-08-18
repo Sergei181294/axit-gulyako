@@ -2,3 +2,32 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+.title{
+    font-family: Raleway, "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom:50px;
+    margin: 0;
+    position: relative;
+}
+.title::after{
+    content:"";
+    position: absolute;
+    height: 1px;
+    width: 170px;
+    background-color: #EC7979;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    left: 50%;
+}
+@media(max-width:1510px){
+    .container{
+        max-width: 992px;
+    }
+}
+@media(max-width:1024px){
+    .container{
+        max-width: 288px;
+    }
+}

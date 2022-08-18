@@ -1,26 +1,9 @@
 
 .contact{
-    padding: 30px 0;
+    padding-top: 100px;
+    padding-bottom: 45px;
 }
-.contact__header{
-    text-align: center;
-    font-size: 30px;
-    font-family: Raleway, "Arial", sans-serif;
-    font-weight: 400;
-    margin: 0;
-    position: relative;
-    padding-bottom: 60px;
-}
-.contact__header::after{
-    content:"";
-    position: absolute;
-    height: 1px;
-    width: 170px;
-    background-color: #EC7979;
-    bottom: 0;
-    transform: translate(-50%, 0);
-    left: 50%;
-}
+
 .contact__subtitle{
     font-size: 18px;
     font-weight: 400;
@@ -74,4 +57,55 @@
 .field__main{
     display: flex;
     justify-content: space-between;
+}
+@media (max-width: 1510px) {
+    .title {
+        font-size: 24px;
+        padding-bottom: 50px;
+        font-weight: bolder;
+    }
+
+    .title::after {
+        max-width: 144px;
+    }
+
+    .contact__subtitle {
+        font-size: 14px;
+        margin: 32px 0 0;
+    }
+
+    .field__left {
+        max-width: 486px;
+    }
+
+    .field__left--one {
+        width: 486px;
+        padding: 20px 0;
+    }
+    .button-submit{
+        max-width: 318px;
+        margin-top: 50px;
+    }
+    .field__right--one{
+        max-width: 486px;
+    }
+}
+@media(max-width: 1024px){
+    .contact{
+        padding: 40px 0;
+    }
+    .field__main{
+        flex-direction: column;
+        gap:30px;
+    }
+    .field__left--one{
+        max-width: 288px;
+    }
+    .field__right--one{
+        max-width: 288px;
+    }
+    .button-submit{
+        max-width: 288px;
+        margin-top: 50px;
+    }
 }

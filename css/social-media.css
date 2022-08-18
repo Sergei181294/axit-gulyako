@@ -38,10 +38,6 @@
     height: 100%;
 }
 @media(max-width: 1510px){
-    .container{
-        max-width: 992px;
-    }
-
 .social__network--title{
     font-size: 18px;
 }
@@ -56,13 +52,9 @@
     width: 40px;
     height: 40px;
 }
-
 }
 
 @media(max-width: 1024px){
-    .container{
-        max-width: 288px;
-    }
     .social{
         flex-direction: column;
         text-align: center;

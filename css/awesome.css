@@ -2,25 +2,7 @@
     padding-top: 100px;
     padding-bottom: 60px;
 }
-.title{
-    text-align: center;
-    font-size: 36px;
-    font-family: Raleway, "Arial", sans-serif;
-    font-weight: 400;
-    position: relative;
-    padding-bottom: 60px;
-    margin: 0;
-}
-.title::after{
-    content:"";
-    position: absolute;
-    height: 1px;
-    width: 170px;
-    background-color: #EC7979;
-    bottom: 0;
-    transform: translate(-50%, 0);
-    left: 50%;
-}
+
 .subtitle{
     max-width: 1169px;
     font-size: 18px;
@@ -90,9 +72,6 @@
 
 }
 @media(max-width: 1510px){
-    .container{
-        max-width: 992px;
-    }
     .title{
         font-size: 24px;
         padding-bottom: 50px;
@@ -132,9 +111,6 @@
     }
 }
 @media(max-width: 1024px){
-    .container{
-        max-width: 288px;
-    }
     .awesome{
         padding: 50px 10px 60px;
     }

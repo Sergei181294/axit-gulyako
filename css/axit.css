@@ -95,10 +95,6 @@
 }
 
 @media (max-width: 1510px) {
-    .container {
-        max-width: 992px;
-    }
-
     .container__content--axit{
         max-width: 112px;
         max-height: 41px;

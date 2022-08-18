@@ -2,25 +2,7 @@
     padding-top:95px;
     padding-bottom: 50px;
 }
-.customers__header{
-    position: relative;
-    text-align: center;
-    font-family: Raleway, "Arial", sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    padding-bottom:50px;
-    margin:0;
-}
-.customers__header::after{
-    content:"";
-    position: absolute;
-    height: 1px;
-    width: 170px;
-    background-color: #EC7979;
-    bottom: 0;
-    transform: translate(-50%, 0);
-    left: 50%;
-}
+
 .customers__subhead{
     font-family: Raleway, arial,sans-serif;
     font-weight: 400;
@@ -93,11 +75,11 @@
     gap:30px;
 }
 @media(max-width: 1510px){
-    .customers__header{
+    .title{
         font-size: 24px;
         padding-bottom:35px;
     }
-    .customers__header::after{
+    .title::after{
         width: 142px;
     }
     .customers__subhead{
@@ -131,6 +113,5 @@
     .none{
         display:none;
     }
-
 }
 
