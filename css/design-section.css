@@ -42,7 +42,6 @@
     color: #FFFFFF;
     background:rgba(0, 0, 0, 0);
     border-color:white;
-    cursor: pointer;
 }
 
 @media(max-width: 1510px) {

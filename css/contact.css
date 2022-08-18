@@ -4,14 +4,6 @@
     padding-bottom: 45px;
 }
 
-.contact__subtitle{
-    font-size: 18px;
-    font-weight: 400;
-    font-family: Raleway, "Arial", sans-serif;
-    text-align: center;
-    color:gray;
-    margin: 40px 0 0 0;
-}
 .field{
     margin-top: 90px;
 }
@@ -22,9 +14,6 @@
     width: 570px;
     border: none;
     border-bottom: 3px solid #BDBDBD;
-    background-color: transparent;
-    color: inherit;
-    outline: none;
     padding:20px 0;
 }
 .button-submit{
@@ -37,7 +26,6 @@
     background-color:#EC7979;
     margin-top: 55px;
     padding:15px;
-    cursor: pointer;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
@@ -46,9 +34,6 @@
     width: 570px;
     border: none;
     border-bottom: 3px solid #BDBDBD;
-    background-color: transparent;
-    color: inherit;
-    outline: none;
     min-height: 147px;
 }
 .field__right{
@@ -59,21 +44,6 @@
     justify-content: space-between;
 }
 @media (max-width: 1510px) {
-    .title {
-        font-size: 24px;
-        padding-bottom: 50px;
-        font-weight: bolder;
-    }
-
-    .title::after {
-        max-width: 144px;
-    }
-
-    .contact__subtitle {
-        font-size: 14px;
-        margin: 32px 0 0;
-    }
-
     .field__left {
         max-width: 486px;
     }

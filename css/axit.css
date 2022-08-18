@@ -46,7 +46,6 @@
     font-size: 18px;
     background:rgba(0, 0, 0, 0);
     border-color: white;
-    cursor: pointer;
 }
 .container__input{
     border: 0 solid white;
@@ -74,14 +73,9 @@
 .container__input--field{
     border: none;
     border-bottom: 3px solid #BDBDBD;
-    background-color: transparent;
-    color: inherit;
-    outline: none;
     min-width: 325px;
     padding:20px 0;
 }
-
-
 .container__input--button{
     width: 470px;
     padding: 25px;
@@ -91,7 +85,6 @@
     border: 1px solid #EC7979;
     color: white;
     margin-top: 100px;
-    cursor: pointer;
 }
 
 @media (max-width: 1510px) {

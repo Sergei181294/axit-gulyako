@@ -26,7 +26,6 @@
     display: flex;
     gap:35px;
     align-self: center;
-    list-style: none;
 }
 .social__img-wrap{
     display: block;

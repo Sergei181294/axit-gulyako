@@ -1,6 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 .container{
     max-width: 1170px;
     margin: 0 auto;
+}
+a, button {
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
 }
 .title{
     font-family: Raleway, "Arial", sans-serif;
@@ -21,13 +34,48 @@
     transform: translate(-50%, 0);
     left: 50%;
 }
+.subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Raleway, "Arial", sans-serif;
+    text-align: center;
+    color:gray;
+    margin: 40px 0 0 0;
+
+}
 @media(max-width:1510px){
     .container{
         max-width: 992px;
+    }
+    .title {
+        font-size: 24px;
+        padding-bottom: 50px;
+        font-weight: bolder;
+    }
+
+    .title::after {
+        max-width: 144px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        margin: 32px 0 0;
     }
 }
 @media(max-width:1024px){
     .container{
         max-width: 288px;
     }
+    .title{
+        font-size: 18px;
+        padding-bottom: 50px;
+        margin: 0;
+    }
+    .title::after {
+        width: 134px;
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+
 }
