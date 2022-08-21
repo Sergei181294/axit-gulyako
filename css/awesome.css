@@ -28,7 +28,7 @@
 .awesome-lamp::before{
     position: absolute;
     content: "";
-    background-image: url("/picture/Group16&lamp.svg");
+    background-image: url("../picture/Group16&lamp.svg");
     width: 92px;
     height: 92px;
     bottom:120px;
@@ -37,7 +37,7 @@
 .awesome-board::before{
     position: absolute;
     content: "";
-    background-image: url("/picture/Group17&board.svg");
+    background-image: url("../picture/Group17&board.svg");
     width: 92px;
     height: 92px;
     bottom:120px;
@@ -45,7 +45,7 @@
 }
 .awesome-lightning::before{
     content:"";
-    background-image: url("/picture/Group18&molnia.svg");
+    background-image: url("../picture/Group18&molnia.svg");
      position: absolute;
     width: 92px;
      height: 92px;
