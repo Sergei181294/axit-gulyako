@@ -48,6 +48,14 @@
     background:rgba(0, 0, 0, 0);
     border-color: white;
 }
+.container__content--button:hover{
+    color: #EC7979;
+    border-color: #EC7979;
+}
+.container__content--button:active{
+    color: white;
+    background-color: #AB4949;
+}
 .container__input{
     border: 0 solid white;
     margin:0;
@@ -73,7 +81,7 @@
 
 .container__input--field{
     border: none;
-    border-bottom: 3px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
     min-width: 325px;
     padding:20px 0;
 }
@@ -86,6 +94,10 @@
     border: 1px solid #EC7979;
     color: white;
     margin-top: 100px;
+    cursor: pointer;
+}
+.container__input--button:hover{
+    background-color: #AB4949;
 }
 
 @media (max-width: 1510px) {

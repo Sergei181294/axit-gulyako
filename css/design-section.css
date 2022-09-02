@@ -37,7 +37,7 @@
     font-weight: 600;
     font-size: 18px;
     margin:73px 0 0 0;
-    width: 370px;
+    min-width: 370px;
     padding: 20px 20px;
     color: #FFFFFF;
     background:rgba(0, 0, 0, 0);
@@ -59,7 +59,7 @@
     .design__tab{
         font-size: 18px;
         margin:32px 0 0;
-        max-width: 318px;
+        min-width: 318px;
     }
 
 }
@@ -69,10 +69,9 @@
         margin: 16px 0 0;
     }
 .design__tab{
-    max-width: 287px;
+    min-width: 287px;
 }
     .design-section{
-        padding-top:45px;
-        padding-bottom: 60px;
+        padding: 45px 0 60px;
     }
 }

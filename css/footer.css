@@ -4,9 +4,11 @@
 }
 .logo{
     display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
     justify-content: center;
     gap:40px;
-    margin:0;
+    margin:0 auto;
     padding:0;
 }
 .footer__img-wrap{
